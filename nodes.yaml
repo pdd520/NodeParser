@@ -35,24 +35,6 @@ proxies:
   skip-cert-verify: false
   sni: 212.193.18.144
   udp: true
-- name: '[VLESS] usadt01.jumperservice.com:19001'
-  type: vless
-  server: usadt01.jumperservice.com
-  port: 19001
-  uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
-  udp: true
-  tls: true
-  servername: usadt01.jumperservice.com
-  skip-cert-verify: false
-- name: '[TROJAN] 104.21.112.1:443'
-  type: trojan
-  server: 104.21.112.1
-  port: 443
-  password: psycho
-  tls: true
-  skip-cert-verify: false
-  sni: pSYcho.sUeX12.IR
-  udp: true
 - name: '[SS] 63.180.254.10:443'
   server: 63.180.254.10
   port: 443
@@ -920,6 +902,15 @@ proxies:
   udp: true
   tls: true
   servername: pl.sky-vault.top
+  skip-cert-verify: false
+- name: '[VLESS] usadt01.jumperservice.com:19001'
+  type: vless
+  server: usadt01.jumperservice.com
+  port: 19001
+  uuid: b5be8e3f-a17d-479c-ebdb-9c3265c2cab7
+  udp: true
+  tls: true
+  servername: www.speedtest.org
   skip-cert-verify: false
 - name: '[VLESS] 45.15.125.8:8443'
   type: vless
@@ -2052,5 +2043,5 @@ proxies:
   tls: true
   servername: yandex.ru
   skip-cert-verify: false
-update_time: 2026-03-25 18:56:51 UTC
+update_time: 2026-03-25 21:40:18 UTC
 source: auto-fetched
