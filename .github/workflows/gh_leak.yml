@@ -1,0 +1,40 @@
+name: GitHub Leak Collector
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'gh_leak_collector.py'
+      - '.github/workflows/gh_leak.yml'
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml requests
+
+      - name: Run leak collector
+        run: python gh_leak_collector.py
+
+      - name: Commit results
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add leaked_nodes.txt leaked_domains.txt || true
+          git commit -m "Update leak results" || true
+          git push || true
