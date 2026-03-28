@@ -30,6 +30,8 @@ jobs:
           pip install aiohttp PyYAML
 
       - name: Run Fetch Script
+        env:
+          BOT: ${{ secrets.BOT }}
         run: python fetch_subscribes.py
 
       - name: Commit and Push
