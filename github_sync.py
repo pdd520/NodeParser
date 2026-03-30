@@ -56,7 +56,7 @@ def main():
             all_found_links.extend(r)
 
     # 2. 针对特定“大户”进行专项扫描
-    special_users = ["Hugh0306", "Yueby", "wzdnzd", "vpei", "ssrsub"]
+    special_users = ["Hugh0306", "Yueby", "qjlxg", "wzdnzd", "vpei", "ssrsub"]
     print(f"[*] 正在专项扫描大户 Gist: {special_users}...")
     
     def scan_user_gists(user):
