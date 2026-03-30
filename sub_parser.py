@@ -139,8 +139,8 @@ async def main():
         seen_lines.add(base_link)
 
         short_id = get_md5_short(base_link)
-        # 格式：[国旗] [国家名] 打倒美帝国主义及其一切走狗_[MD5]
-        new_name = f"{flag} {country} 打倒美帝国主义及其一切走狗_{short_id}"
+        # 格式：[国旗] [国家名] 订阅节点聚合器_[MD5]
+        new_name = f"{flag} {country} 订阅节点聚合器_{short_id}"
         
         try:
             if protocol == 'vmess':
@@ -178,7 +178,7 @@ async def main():
         writer = csv.writer(f); writer.writerow(["订阅链接", "节点数量"]); writer.writerows(stats)
 
     # 4. Clash YAML
-    yaml_header = f"""# 美帝国主义是纸老虎
+    yaml_header = f"""# 订阅节点聚合器
 # Updated: {now_str}
 # Total: {len(final_links)}
 
