@@ -14,14 +14,14 @@ from urllib.parse import urlparse, quote, unquote
 import geoip2.database
 
 # --- 基础配置 ---
-INPUT_FILE = "filter_subs.txt"
-GEOIP_DB = "GeoLite2-Country.mmdb"  # 确认使用你的国家库文件名
+INPUT_FILE = "subscribes.txt"
+GEOIP_DB = "GeoLite2-Country.mmdb" 
 OUTPUT_TXT = "sub_parser.txt"
 OUTPUT_B64 = "sub_parser_base64.txt"
 OUTPUT_CSV = "sub_parser.csv"
 OUTPUT_YAML = "sub_parser.yaml"
 
-MAX_CONCURRENT_TASKS = 80 
+MAX_CONCURRENT_TASKS = 50 
 MAX_RETRIES = 1
 
 # --- 工具函数 ---
