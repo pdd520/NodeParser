@@ -14,7 +14,7 @@ from urllib.parse import urlparse, quote, unquote
 import geoip2.database
 
 # --- 基础配置 ---
-INPUT_FILE = "subscribes.txt"
+INPUT_FILE = "filter_subs.txt"
 GEOIP_DB = "GeoLite2-Country.mmdb" 
 OUTPUT_TXT = "sub_parser.txt"
 OUTPUT_B64 = "sub_parser_base64.txt"
