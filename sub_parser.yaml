@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-05-20 10:58:19
-# Total: 2311
+# Updated: 2026-05-20 15:36:34
+# Total: 2093
 
 port: 7890
 mode: Rule
@@ -18,21 +18,20 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_96dd", type: hysteria2, server: us02.344233.cc, port: 8080, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_39c6", type: hysteria2, server: us03.344233.cc, port: 20000, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_e150", type: hysteria2, server: hkmax003.233235.xyz, port: 20000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_2e55", type: hysteria2, server: hkmax03.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_9ebd", type: hysteria2, server: hkmax06.767887.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_07a0", type: hysteria2, server: hkt04.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_b22e", type: hysteria2, server: hkt05.476579.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_3f66", type: vless, server: tw1.344233.cc, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_8d20", type: vless, server: tw06.352343.cc, port: 8443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_9b31", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_9b31", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_71ec", type: vless, server: tw4.453521.xyz, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_a4eb", type: hysteria2, server: 5gzdx.233235.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_cded", type: hysteria2, server: tw3.757866.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_4aae", type: hysteria2, server: tw07.352343.cc, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_af26", type: trojan, server: tw4.453521.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_f4aa", type: hysteria2, server: tw11.352343.cc, port: 8080, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_069c", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_7eb3", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_4335", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_a824", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7eb3", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4335", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_177d", type: hysteria2, server: sg07.344233.cc, port: 8080, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_4681", type: hysteria2, server: 2406:da18:1fb0:ae00:ce72:7cab:1d26:a4ba, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_4b0f", type: hysteria2, server: sg10.352343.cc, port: 8080, udp: true }
@@ -40,8 +39,7 @@ proxies:
   - { name: "🇸🇬 新加坡 订阅节点聚合器_4318", type: hysteria2, server: sg12.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_e906", type: hysteria2, server: sg13.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_8385", type: hysteria2, server: sg15.476579.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_595f", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_7216", type: ss, server: 2401:b60:e0ce:20::1, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_595f", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_5ff2", type: hysteria2, server: 1jp003.156786.xyz, port: 8081, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_1e7e", type: hysteria2, server: hyfnjp01.156786.xyz, port: 60000, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_68f4", type: hysteria2, server: jp03.344233.cc, port: 60000, udp: true }
@@ -64,21 +62,20 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_fa99", type: hysteria2, server: us02.344233.cc, port: 8080, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_ff5f", type: hysteria2, server: us03.344233.cc, port: 20000, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_73dc", type: hysteria2, server: hkmax003.233235.xyz, port: 20000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_c557", type: hysteria2, server: hkmax03.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_4145", type: hysteria2, server: hkmax06.767887.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_6698", type: hysteria2, server: hkt04.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_ac26", type: hysteria2, server: hkt05.476579.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_8760", type: vless, server: tw1.344233.cc, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_47ab", type: vless, server: tw06.352343.cc, port: 8443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_f00d", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_f00d", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_fc43", type: vless, server: tw4.453521.xyz, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_1d3a", type: hysteria2, server: 5gzdx.233235.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_67f9", type: hysteria2, server: tw3.757866.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_4e0f", type: hysteria2, server: tw07.352343.cc, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_db12", type: trojan, server: tw4.453521.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_7d07", type: hysteria2, server: tw11.352343.cc, port: 8080, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_b4a1", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_5980", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_343f", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_5995", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5980", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_343f", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_2ec9", type: hysteria2, server: sg07.344233.cc, port: 8080, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_41a7", type: hysteria2, server: 2406:da18:1fb0:ae00:ce72:7cab:1d26:a4ba, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_c9d7", type: hysteria2, server: sg10.352343.cc, port: 8080, udp: true }
@@ -86,8 +83,7 @@ proxies:
   - { name: "🇸🇬 新加坡 订阅节点聚合器_9f52", type: hysteria2, server: sg12.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_2e24", type: hysteria2, server: sg13.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_4d5e", type: hysteria2, server: sg15.476579.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_8143", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_b008", type: ss, server: 2401:b60:e0ce:20::1, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8143", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_c3ed", type: hysteria2, server: 1jp003.156786.xyz, port: 8081, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_6887", type: hysteria2, server: hyfnjp01.156786.xyz, port: 60000, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_16b5", type: hysteria2, server: jp03.344233.cc, port: 60000, udp: true }
@@ -110,21 +106,20 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_e4b4", type: hysteria2, server: us02.344233.cc, port: 8080, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_a06b", type: hysteria2, server: us03.344233.cc, port: 20000, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_025b", type: hysteria2, server: hkmax003.233235.xyz, port: 20000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_6f5c", type: hysteria2, server: hkmax03.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_807b", type: hysteria2, server: hkmax06.767887.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_95ef", type: hysteria2, server: hkt04.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_5ba8", type: hysteria2, server: hkt05.476579.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_f5f0", type: vless, server: tw1.344233.cc, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_4904", type: vless, server: tw06.352343.cc, port: 8443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_cb15", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_cb15", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_88e2", type: vless, server: tw4.453521.xyz, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_2233", type: hysteria2, server: 5gzdx.233235.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_091c", type: hysteria2, server: tw3.757866.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_bcc7", type: hysteria2, server: tw07.352343.cc, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_6649", type: trojan, server: tw4.453521.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_9111", type: hysteria2, server: tw11.352343.cc, port: 8080, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_aed4", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_960e", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_429b", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_30a8", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_960e", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_429b", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_b299", type: hysteria2, server: sg07.344233.cc, port: 8080, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_b47a", type: hysteria2, server: 2406:da18:1fb0:ae00:ce72:7cab:1d26:a4ba, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_1435", type: hysteria2, server: sg10.352343.cc, port: 8080, udp: true }
@@ -132,8 +127,7 @@ proxies:
   - { name: "🇸🇬 新加坡 订阅节点聚合器_d7bc", type: hysteria2, server: sg12.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_ffa8", type: hysteria2, server: sg13.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_5a08", type: hysteria2, server: sg15.476579.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_e84c", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_9472", type: ss, server: 2401:b60:e0ce:20::1, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_e84c", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_b8d0", type: hysteria2, server: 1jp003.156786.xyz, port: 8081, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_112e", type: hysteria2, server: hyfnjp01.156786.xyz, port: 60000, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_88c5", type: hysteria2, server: jp03.344233.cc, port: 60000, udp: true }
@@ -156,21 +150,20 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_99f6", type: hysteria2, server: us02.344233.cc, port: 8080, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_cbbc", type: hysteria2, server: us03.344233.cc, port: 20000, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_f31c", type: hysteria2, server: hkmax003.233235.xyz, port: 20000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_5903", type: hysteria2, server: hkmax03.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_b506", type: hysteria2, server: hkmax06.767887.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_45d4", type: hysteria2, server: hkt04.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_cade", type: hysteria2, server: hkt05.476579.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_6680", type: vless, server: tw1.344233.cc, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_fc77", type: vless, server: tw06.352343.cc, port: 8443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_e186", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_e186", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_1af9", type: vless, server: tw4.453521.xyz, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_06bf", type: hysteria2, server: 5gzdx.233235.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_d0ec", type: hysteria2, server: tw3.757866.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_2ee0", type: hysteria2, server: tw07.352343.cc, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_8355", type: trojan, server: tw4.453521.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_c234", type: hysteria2, server: tw11.352343.cc, port: 8080, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_0523", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_a03e", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_741c", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_4202", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a03e", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_741c", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_8c47", type: hysteria2, server: sg07.344233.cc, port: 8080, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_da72", type: hysteria2, server: 2406:da18:1fb0:ae00:ce72:7cab:1d26:a4ba, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_8a50", type: hysteria2, server: sg10.352343.cc, port: 8080, udp: true }
@@ -178,8 +171,7 @@ proxies:
   - { name: "🇸🇬 新加坡 订阅节点聚合器_7cef", type: hysteria2, server: sg12.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_d292", type: hysteria2, server: sg13.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_daf2", type: hysteria2, server: sg15.476579.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_9b8d", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_e0b0", type: ss, server: 2401:b60:e0ce:20::1, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9b8d", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_8f81", type: hysteria2, server: 1jp003.156786.xyz, port: 8081, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_f8c6", type: hysteria2, server: hyfnjp01.156786.xyz, port: 60000, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_d5a2", type: hysteria2, server: jp03.344233.cc, port: 60000, udp: true }
@@ -202,21 +194,20 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_1db3", type: hysteria2, server: us02.344233.cc, port: 8080, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_c6a2", type: hysteria2, server: us03.344233.cc, port: 20000, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_4b61", type: hysteria2, server: hkmax003.233235.xyz, port: 20000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_b802", type: hysteria2, server: hkmax03.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_6df8", type: hysteria2, server: hkmax06.767887.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_1b1f", type: hysteria2, server: hkt04.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_0858", type: hysteria2, server: hkt05.476579.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_2e00", type: vless, server: tw1.344233.cc, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_8fda", type: vless, server: tw06.352343.cc, port: 8443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_5a43", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_5a43", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_e435", type: vless, server: tw4.453521.xyz, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_bb5c", type: hysteria2, server: 5gzdx.233235.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_9433", type: hysteria2, server: tw3.757866.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_7f18", type: hysteria2, server: tw07.352343.cc, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_4b0c", type: trojan, server: tw4.453521.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_a61d", type: hysteria2, server: tw11.352343.cc, port: 8080, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_7300", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_7136", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_745a", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_f67d", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7136", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_745a", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_9fb3", type: hysteria2, server: sg07.344233.cc, port: 8080, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_c275", type: hysteria2, server: 2406:da18:1fb0:ae00:ce72:7cab:1d26:a4ba, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_5041", type: hysteria2, server: sg10.352343.cc, port: 8080, udp: true }
@@ -224,8 +215,7 @@ proxies:
   - { name: "🇸🇬 新加坡 订阅节点聚合器_db69", type: hysteria2, server: sg12.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_270f", type: hysteria2, server: sg13.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_f62a", type: hysteria2, server: sg15.476579.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_b047", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_a94f", type: ss, server: 2401:b60:e0ce:20::1, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b047", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_0a5f", type: hysteria2, server: 1jp003.156786.xyz, port: 8081, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_e147", type: hysteria2, server: hyfnjp01.156786.xyz, port: 60000, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_52a6", type: hysteria2, server: jp03.344233.cc, port: 60000, udp: true }
@@ -248,21 +238,20 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_455a", type: hysteria2, server: us02.344233.cc, port: 8080, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_7816", type: hysteria2, server: us03.344233.cc, port: 20000, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_0e94", type: hysteria2, server: hkmax003.233235.xyz, port: 20000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_80c7", type: hysteria2, server: hkmax03.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_fbcd", type: hysteria2, server: hkmax06.767887.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_a3fb", type: hysteria2, server: hkt04.476579.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_72b6", type: hysteria2, server: hkt05.476579.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_d325", type: vless, server: tw1.344233.cc, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_814d", type: vless, server: tw06.352343.cc, port: 8443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_29b6", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_29b6", type: vless, server: tw5.453521.xyz, port: 8443, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_7508", type: vless, server: tw4.453521.xyz, port: 8443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_5df1", type: hysteria2, server: 5gzdx.233235.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_7e18", type: hysteria2, server: tw3.757866.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_3d1b", type: hysteria2, server: tw07.352343.cc, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_7ab2", type: trojan, server: tw4.453521.xyz, port: 8080, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_af48", type: hysteria2, server: tw11.352343.cc, port: 8080, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_3c59", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_caf2", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_51a7", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_97ac", type: hysteria2, server: tw40.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_caf2", type: hysteria2, server: sg05.453521.xyz, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_51a7", type: hysteria2, server: sg06.453521.xyz, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_90b8", type: hysteria2, server: sg07.344233.cc, port: 8080, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_24ec", type: hysteria2, server: 2406:da18:1fb0:ae00:ce72:7cab:1d26:a4ba, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_0900", type: hysteria2, server: sg10.352343.cc, port: 8080, udp: true }
@@ -270,8 +259,7 @@ proxies:
   - { name: "🇸🇬 新加坡 订阅节点聚合器_dba8", type: hysteria2, server: sg12.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_b6f6", type: hysteria2, server: sg13.352343.cc, port: 8080, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_3c42", type: hysteria2, server: sg15.476579.xyz, port: 8080, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_555c", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_fa01", type: ss, server: 2401:b60:e0ce:20::1, port: 8080, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_555c", type: hysteria2, server: sg21.453521.xyz, port: 8080, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_aa3f", type: hysteria2, server: 1jp003.156786.xyz, port: 8081, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_83f6", type: hysteria2, server: hyfnjp01.156786.xyz, port: 60000, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_0775", type: hysteria2, server: jp03.344233.cc, port: 60000, udp: true }
@@ -285,56 +273,49 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_e225", type: trojan, server: 1.1.1.1, port: 8080, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_7d97", type: trojan, server: 2sg13cb2b6b4d-9b32-01a8-7574-376a171bb832.170203.xyz, port: 820, udp: true }
   - { name: "🇸🇪 瑞典 订阅节点聚合器_69d5", type: trojan, server: 2.2.2.2, port: 820, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_bbd9", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_cd8c", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_5833", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_6703", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_9e9b", type: vmess, server: t.cnmjcn.cyou, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_1a21", type: vmess, server: m.cnmjin.net, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_140b", type: vmess, server: m.cnmjin.net, port: 16616, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_4cc7", type: vless, server: 165.246.171.218, port: 10891, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_dd9f", type: vless, server: 64.188.106.174, port: 4433, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_1121", type: vless, server: 142.91.108.122, port: 443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_029b", type: vless, server: 158.51.110.12, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a4da", type: vless, server: 210.16.123.246, port: 18002, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_7faf", type: vless, server: 165.22.123.168, port: 443, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_adcd", type: vless, server: 45.93.30.168, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3a4c", type: vless, server: cf.877774.xyz, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a078", type: vless, server: 104.17.72.206, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f3ab", type: vless, server: 38.244.5.109, port: 39738, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f456", type: vless, server: 154.17.12.116, port: 443, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_52f2", type: vless, server: 27.100.182.157, port: 20005, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c8f6", type: vless, server: 104.19.62.173, port: 2096, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_e996", type: vless, server: v2.dabache.top, port: 2096, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_9620", type: hysteria2, server: hk.mjhy2.com, port: 1443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_a5a3", type: hysteria2, server: 160.187.100.109, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_1a04", type: hysteria2, server: vpn-us-002.fastervpn.world, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3bfa", type: vless, server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_ead6", type: vless, server: 91.107.166.26, port: 8888, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_7719", type: vless, server: 23.94.56.111, port: 20338, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_a3d1", type: vless, server: 139.162.133.162, port: 52982, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_e243", type: vless, server: 152.67.223.73, port: 4433, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_a275", type: vless, server: 91.107.177.114, port: 14444, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_2097", type: vless, server: 178.208.79.242, port: 1443, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_48a7", type: vless, server: 152.69.229.175, port: 22558, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_3194", type: vless, server: 104.168.94.140, port: 2443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_ec11", type: vless, server: 134.209.30.166, port: 443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_023f", type: vless, server: 143.47.237.199, port: 8443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_e7ff", type: vless, server: 46.101.227.221, port: 443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_2c8b", type: vless, server: 138.68.130.235, port: 8443, udp: true }
-  - { name: "🇸🇪 瑞典 订阅节点聚合器_e5d2", type: vless, server: 79.141.175.246, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_ee92", type: vless, server: 46.101.255.72, port: 443, udp: true }
-  - { name: "🇸🇪 瑞典 订阅节点聚合器_88f7", type: vless, server: 94.242.58.9, port: 443, udp: true }
-  - { name: "🇫🇮 芬兰 订阅节点聚合器_b26c", type: vless, server: 188.130.206.37, port: 8443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_ee9d", type: vless, server: 85.192.28.24, port: 443, udp: true }
-  - { name: "🇦🇪 阿联酋 订阅节点聚合器_be01", type: vless, server: 20.174.15.226, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_b921", type: vless, server: 104.194.156.164, port: 443, udp: true }
-  - { name: "🇫🇮 芬兰 订阅节点聚合器_e051", type: vless, server: 95.216.199.105, port: 443, udp: true }
-  - { name: "🇪🇪 爱沙尼亚 订阅节点聚合器_1cc0", type: vless, server: 91.184.250.182, port: 443, udp: true }
-  - { name: "🇱🇻 拉脱维亚 订阅节点聚合器_4b32", type: vless, server: 169.40.1.23, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_dae3", type: vless, server: 5.187.7.220, port: 443, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_7138", type: vless, server: 198.199.126.228, port: 2096, udp: true }
-  - { name: "🇱🇻 拉脱维亚 订阅节点聚合器_b964", type: vless, server: 45.43.76.184, port: 8443, udp: true }
-  - { name: "🇵🇱 波兰 订阅节点聚合器_391d", type: vless, server: 92.118.205.177, port: 443, udp: true }
-  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_1430", type: vless, server: 85.239.39.144, port: 8443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_9529", type: vless, server: 207.154.208.9, port: 8443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_ccf6", type: vless, server: 5.144.179.49, port: 2053, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_efcd", type: vless, server: 46.101.246.201, port: 8443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_c779", type: vless, server: 144.31.66.144, port: 443, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_b210", type: vless, server: 146.190.30.27, port: 2053, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_7215", type: hysteria2, server: jp.mjhy2.com, port: 1443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_161c", type: vless, server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c854", type: vless, server: 107.173.147.41, port: 36082, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_26c6", type: vless, server: 192.9.228.70, port: 14123, udp: true }
+  - { name: "🇸🇪 瑞典 订阅节点聚合器_3a51", type: vless, server: 62.60.159.173, port: 433, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_dcd7", type: vless, server: 116.203.99.143, port: 40000, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d387", type: vless, server: 104.168.87.41, port: 16443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c0c9", type: vless, server: 23.94.94.192, port: 42539, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_31f0", type: vless, server: 172.235.49.135, port: 17973, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_16c4", type: vless, server: 157.90.198.231, port: 444, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_b448", type: vless, server: 109.248.163.102, port: 2053, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_eccf", type: vless, server: 109.120.184.243, port: 443, udp: true }
+  - { name: "🇨🇱 智利 订阅节点聚合器_0ec2", type: vless, server: 64.176.15.110, port: 2053, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_e4d0", type: vless, server: 134.122.93.75, port: 2083, udp: true }
+  - { name: "🇬🇧 英国 订阅节点聚合器_de7a", type: vless, server: 138.68.161.226, port: 443, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_e8f3", type: vless, server: 57.128.183.133, port: 8443, udp: true }
+  - { name: "🇪🇪 爱沙尼亚 订阅节点聚合器_d456", type: vless, server: 5.45.115.162, port: 2083, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_6d53", type: vless, server: 103.71.23.247, port: 443, udp: true }
+  - { name: "🇱🇻 拉脱维亚 订阅节点聚合器_41f8", type: vless, server: 5.34.210.234, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_cfd5", type: vless, server: 143.198.236.149, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_a551", type: vless, server: 46.101.152.234, port: 8443, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_9788", type: vless, server: 31.58.171.102, port: 8443, udp: true }
+  - { name: "🇬🇧 英国 订阅节点聚合器_e644", type: vless, server: 104.248.167.119, port: 443, udp: true }
+  - { name: "🇦🇪 阿联酋 订阅节点聚合器_b5f4", type: vless, server: 103.85.113.181, port: 443, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_6f53", type: vless, server: 57.128.179.9, port: 443, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_372e", type: vless, server: 185.92.183.254, port: 443, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_cec6", type: vless, server: 212.193.1.234, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_6831", type: vless, server: 154.53.63.79, port: 8443, udp: true }
+  - { name: "🇩🇰 丹麦 订阅节点聚合器_73bc", type: vless, server: 193.180.215.118, port: 443, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_42ea", type: vless, server: 89.167.34.172, port: 443, udp: true }
+  - { name: "🇬🇧 英国 订阅节点聚合器_c8c2", type: vless, server: 193.219.99.131, port: 8443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e059", type: vless, server: 143.198.230.169, port: 443, udp: true }
+  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_19e1", type: vless, server: 185.128.107.175, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_cca9", type: vless, server: 168.119.147.252, port: 443, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_2a91", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 27006, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_e896", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 47009, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_a895", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 47010, udp: true }
@@ -366,17 +347,12 @@ proxies:
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_40a0", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 47045, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_1ccb", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 37751, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_e263", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 37749, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7866", type: trojan, server: 104.19.174.68, port: 443, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_1689", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_17b1", type: vmess, server: t.cnmjcn.cyou, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_bce8", type: vmess, server: m.cnmjin.net, port: 16622, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4269", type: vmess, server: m.cnmjin.net, port: 16616, uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee, cipher: auto, tls: false, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_d54b", type: hysteria2, server: hk.mjhy2.com, port: 1443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_ffb6", type: hysteria2, server: 160.187.100.109, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d7aa", type: hysteria2, server: vpn-us-002.fastervpn.world, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5aad", type: vless, server: 216.23.108.4, port: 55301, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d52f", type: vless, server: 217.60.248.94, port: 8443, udp: true }
-  - { name: "🇨🇦 加拿大 订阅节点聚合器_0c7f", type: vless, server: 142.248.219.98, port: 2053, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_6c7a", type: vless, server: 185.39.51.124, port: 36284, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_f4ec", type: hysteria2, server: jp.mjhy2.com, port: 1443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_5dd9", type: vless, server: jpvless.yydzx.xyz, port: 12784, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_df4e", type: vless, server: 168.138.180.178, port: 44445, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f81d", type: vless, server: 38.22.237.247, port: 39738, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_354f", type: ss, server: 127.0.0.1, port: 7800, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_c317", type: ss, server: 127.0.0.1, port: 1, udp: true }
   - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_641f", type: trojan, server: aeryy5gfrp630ww1.lovebaipiao.net, port: 443, udp: true }
@@ -425,12 +401,12 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_7995", type: hysteria2, server: us02zl.poke-mon.xyz, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_d763", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54357, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_a266", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54357, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_f7d9", type: trojan, server: pokemonsg-01.yunjnet.com, port: 55016, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f7d9", type: trojan, server: pokemonsg-01.yunjnet.com, port: 55016, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_9c9d", type: trojan, server: pokemonsg-02.yunjnet.com, port: 55017, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_111e", type: trojan, server: pokemon-02.yunjnet.com, port: 55027, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_5f88", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54258, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_7fa4", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54258, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_e2d5", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_e2d5", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_744d", type: trojan, server: pokemonjp-02.yunjnet.com, port: 54032, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_b444", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54261, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_ab9f", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54261, udp: true }
@@ -442,7 +418,7 @@ proxies:
   - { name: "🌐 未知地区 订阅节点聚合器_b8d7", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_b16b", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54273, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_191c", type: trojan, server: pokemon-02.yunjnet.com, port: 56019, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_a350", type: trojan, server: pokemon-01.yunjnet.com, port: 55016, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a350", type: trojan, server: pokemon-01.yunjnet.com, port: 55016, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ac13", type: hysteria2, server: hkt03ddns.poke-mon.xyz, port: 20000, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_3651", type: hysteria2, server: hk01.poke-mon.xyz, port: 443, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_586f", type: vless, server: vless-hk01.yunjnet.com, port: 50133, udp: true }
@@ -464,8 +440,8 @@ proxies:
   - { name: "🌐 未知地区 订阅节点聚合器_6d81", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54261, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_9005", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54261, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_0e57", type: trojan, server: pokemon-02.yunjnet.com, port: 54029, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_e678", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_f500", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_e678", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f500", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_2c6c", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_a42b", type: trojan, server: pokemonus-02.yunjnet.com, port: 56017, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_e379", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
@@ -512,7 +488,7 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_1454", type: hysteria2, server: us02zl.poke-mon.xyz, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_44f9", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54357, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_770f", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54357, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_ceeb", type: trojan, server: pokemonsg-01.yunjnet.com, port: 55016, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_ceeb", type: trojan, server: pokemonsg-01.yunjnet.com, port: 55016, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_06aa", type: trojan, server: pokemonsg-02.yunjnet.com, port: 55017, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_82ab", type: trojan, server: pokemon-02.yunjnet.com, port: 55027, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_9dbd", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54258, udp: true }
@@ -523,7 +499,7 @@ proxies:
   - { name: "🌐 未知地区 订阅节点聚合器_a855", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54261, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_029a", type: trojan, server: pokemon-02.yunjnet.com, port: 54029, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_38da", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_9afe", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_9afe", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_af87", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_cb6e", type: trojan, server: pokemonus-02.yunjnet.com, port: 56017, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_ccb8", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
@@ -546,14 +522,14 @@ proxies:
   - { name: "🇬🇧 英国 订阅节点聚合器_5253", type: trojan, server: pokemon-02.yunjnet.com, port: 55027, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_38be", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54258, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_bcc8", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54258, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_e361", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_e361", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_1c05", type: trojan, server: pokemonjp-02.yunjnet.com, port: 54032, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_54f6", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54261, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_ade0", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54261, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_7735", type: trojan, server: pokemon-02.yunjnet.com, port: 54029, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_f661", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_0c79", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_6ba4", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_6ba4", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_01ac", type: trojan, server: pokemonus-02.yunjnet.com, port: 56017, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_5ffe", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_0b15", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54273, udp: true }
@@ -570,7 +546,7 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_226d", type: hysteria2, server: us02zl.poke-mon.xyz, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_8a7d", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54357, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_2931", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54357, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_39bf", type: trojan, server: pokemonsg-01.yunjnet.com, port: 55016, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_39bf", type: trojan, server: pokemonsg-01.yunjnet.com, port: 55016, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_1906", type: trojan, server: pokemonsg-02.yunjnet.com, port: 55017, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_6399", type: trojan, server: pokemon-02.yunjnet.com, port: 55027, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_a7da", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54258, udp: true }
@@ -582,7 +558,7 @@ proxies:
   - { name: "🇬🇧 英国 订阅节点聚合器_5e2c", type: trojan, server: pokemon-02.yunjnet.com, port: 54029, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_3b9e", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_e6ae", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3525", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_3525", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_b56a", type: trojan, server: pokemonus-02.yunjnet.com, port: 56017, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_236c", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_6ba7", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54273, udp: true }
@@ -624,6 +600,8 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_6f91", type: vless, server: 104.19.58.118, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_6a6a", type: vless, server: 69.84.182.13, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_a501", type: vless, server: 69.84.182.13, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8c8c", type: vless, server: cf.tencentapp.cn, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7037", type: vmess, server: cf.tencentapp.cn, port: 443, uuid: b36a22a2-0275-401b-bfca-48d41ab2b696, cipher: auto, tls: true, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_d1d8", type: vless, server: 185.184.70.120, port: 443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_5b50", type: vless, server: 125.227.219.98, port: 6235, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_a14c", type: trojan, server: 125.227.86.46, port: 443, udp: true }
@@ -647,19 +625,19 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_fed3", type: vless, server: cf.tencentapp.cn, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_49c6", type: vless, server: cf.tencentapp.cn, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_7274", type: vless, server: cf.tencentapp.cn, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_9700", type: vless, server: da.mfa.gov.ua, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_71ec", type: vless, server: dnew.cc, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a9f6", type: vless, server: ip.sb, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_412c", type: vless, server: openai.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a29d", type: vless, server: cu.877774.xyz, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_f966", type: vless, server: 01-qq.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_9e09", type: vless, server: cdn.7zz.cn, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_183c", type: vless, server: www.mc.js.cool, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_f4b0", type: vless, server: time.is, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c6eb", type: vless, server: cf.090227.xyz, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_576c", type: vless, server: store.ubi.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a21c", type: vless, server: mfa.gov.ua, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_11d3", type: vless, server: tajikistan.mfa.gov.ua, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_19ad", type: vless, server: da.mfa.gov.ua, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_dd20", type: vless, server: dnew.cc, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_082b", type: vless, server: ip.sb, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7646", type: vless, server: openai.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f6f9", type: vless, server: cu.877774.xyz, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_1790", type: vless, server: 01-qq.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_cc9d", type: vless, server: cdn.7zz.cn, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_9516", type: vless, server: www.mc.js.cool, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_ce7d", type: vless, server: time.is, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f34b", type: vless, server: cf.090227.xyz, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_69f3", type: vless, server: store.ubi.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_990b", type: vless, server: mfa.gov.ua, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b9c1", type: vless, server: tajikistan.mfa.gov.ua, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_cdd1", type: vmess, server: www.onesy1.cc, port: 10086, uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_8f01", type: vmess, server: www.onesy1.cc, port: 10086, uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_2588", type: vmess, server: www.onesy1.cc, port: 443, uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0, cipher: auto, tls: false, udp: true }
@@ -1094,36 +1072,6 @@ proxies:
   - { name: "🇫🇷 法国 订阅节点聚合器_4e58", type: vmess, server: planb.mojcn.com, port: 16645, uuid: 8740974a-fed6-417f-b0fc-d5b687ddc7d9, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_e138", type: vmess, server: m.cnmjin.net, port: 16645, uuid: 8740974a-fed6-417f-b0fc-d5b687ddc7d9, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_d5b6", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: 8740974a-fed6-417f-b0fc-d5b687ddc7d9, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_a234", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_1f2f", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4718", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_8986", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_632c", type: vmess, server: m.cnmjin.net, port: 16617, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_f55c", type: vmess, server: t.cnmjcn.cyou, port: 16617, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_5144", type: vmess, server: planb.mojcn.com, port: 16618, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_8910", type: vmess, server: m.cnmjin.net, port: 16618, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_e810", type: vmess, server: t.cnmjcn.cyou, port: 16618, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_c400", type: vmess, server: planb.mojcn.com, port: 16632, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_082a", type: vmess, server: m.cnmjin.net, port: 16632, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_1bf1", type: vmess, server: t.cnmjcn.cyou, port: 16632, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4076", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_d4b0", type: vmess, server: m.cnmjin.net, port: 16622, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_2c01", type: vmess, server: t.cnmjcn.cyou, port: 16622, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_e631", type: vmess, server: planb.mojcn.com, port: 16626, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_3e4f", type: vmess, server: planb.mojcn.com, port: 16616, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_44a8", type: vmess, server: m.cnmjin.net, port: 16616, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_5406", type: vmess, server: t.cnmjcn.cyou, port: 16616, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_816a", type: vmess, server: planb.mojcn.com, port: 16648, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_b9e5", type: vmess, server: m.cnmjin.net, port: 16648, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_db77", type: vmess, server: t.cnmjcn.cyou, port: 16648, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_23c5", type: vmess, server: planb.mojcn.com, port: 16641, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_79f4", type: vmess, server: m.cnmjin.net, port: 16641, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_5de7", type: vmess, server: t.cnmjcn.cyou, port: 16641, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_98f3", type: vmess, server: planb.mojcn.com, port: 16644, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_c169", type: vmess, server: m.cnmjin.net, port: 16644, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_b52a", type: vmess, server: planb.mojcn.com, port: 16645, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_68e6", type: vmess, server: m.cnmjin.net, port: 16645, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_28f5", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: 62e2f63d-eb5b-4e22-9501-7361dab470b0, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_ddda", type: vmess, server: planb.mojcn.com, port: 16617, uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_ea77", type: vmess, server: planb.mojcn.com, port: 16617, uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_8070", type: vmess, server: planb.mojcn.com, port: 16617, uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef, cipher: auto, tls: false, udp: true }
@@ -1184,36 +1132,6 @@ proxies:
   - { name: "🇫🇷 法国 订阅节点聚合器_122b", type: vmess, server: planb.mojcn.com, port: 16645, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_b371", type: vmess, server: m.cnmjin.net, port: 16645, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_4925", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_476c", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4e0b", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_aed5", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_cc1f", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_b2a3", type: vmess, server: m.cnmjin.net, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_454c", type: vmess, server: t.cnmjcn.cyou, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_fbf5", type: vmess, server: planb.mojcn.com, port: 16618, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_c7ee", type: vmess, server: m.cnmjin.net, port: 16618, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_0ec6", type: vmess, server: t.cnmjcn.cyou, port: 16618, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_a703", type: vmess, server: planb.mojcn.com, port: 16632, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_0889", type: vmess, server: m.cnmjin.net, port: 16632, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_7200", type: vmess, server: t.cnmjcn.cyou, port: 16632, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_2291", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_50bd", type: vmess, server: m.cnmjin.net, port: 16622, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_f6ee", type: vmess, server: t.cnmjcn.cyou, port: 16622, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_3f83", type: vmess, server: planb.mojcn.com, port: 16626, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_e5a9", type: vmess, server: planb.mojcn.com, port: 16616, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_15c8", type: vmess, server: m.cnmjin.net, port: 16616, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_ca76", type: vmess, server: t.cnmjcn.cyou, port: 16616, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_b2a1", type: vmess, server: planb.mojcn.com, port: 16648, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4531", type: vmess, server: m.cnmjin.net, port: 16648, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4e60", type: vmess, server: t.cnmjcn.cyou, port: 16648, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4fb8", type: vmess, server: planb.mojcn.com, port: 16641, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_b188", type: vmess, server: m.cnmjin.net, port: 16641, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_78d9", type: vmess, server: t.cnmjcn.cyou, port: 16641, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_0d44", type: vmess, server: planb.mojcn.com, port: 16644, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_b8c5", type: vmess, server: m.cnmjin.net, port: 16644, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_4934", type: vmess, server: planb.mojcn.com, port: 16645, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_9f43", type: vmess, server: m.cnmjin.net, port: 16645, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_011e", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_f678", type: vmess, server: planb.mojcn.com, port: 16617, uuid: be0bb95f-cde1-487c-8359-4cd47a0cc089, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_881a", type: vmess, server: planb.mojcn.com, port: 16617, uuid: be0bb95f-cde1-487c-8359-4cd47a0cc089, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_5491", type: vmess, server: planb.mojcn.com, port: 16617, uuid: be0bb95f-cde1-487c-8359-4cd47a0cc089, cipher: auto, tls: false, udp: true }
@@ -1649,8 +1567,8 @@ proxies:
   - { name: "🇯🇵 日本 订阅节点聚合器_4451", type: vless, server: gtmaws.zfym.online, port: 54550, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_fb10", type: vless, server: gtmaws.zfym.online, port: 54961, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_7224", type: vless, server: gtmaws.zfym.online, port: 13557, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_801e", type: vmess, server: 127.0.0.1, port: 80, uuid: f9fcf020-b808-4068-99a8-8ef16db2ec9d, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_3768", type: vmess, server: 127.0.0.1, port: 80, uuid: f6660bb1-bb42-4538-b6e2-6bb370daa213, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_7039", type: vmess, server: 127.0.0.1, port: 80, uuid: 4a5a5f7a-08b7-4526-8a02-fab6499959bf, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_f245", type: vmess, server: 127.0.0.1, port: 80, uuid: 51ab240e-220f-471f-b0da-e3f945174927, cipher: auto, tls: false, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_4cde", type: trojan, server: gm.nianyun.pw, port: 19000, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_8035", type: vless, server: saas.sin.fan, port: 443, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_c5e0", type: vless, server: 156.231.141.172, port: 443, udp: true }
@@ -1662,7 +1580,7 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_5ab1", type: vless, server: saas.sin.fan, port: 8443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_6074", type: ss, server: ovofa.nianyun.pw, port: 15260, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_e4d3", type: vmess, server: mix2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a9eb", type: vmess, server: mix2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8bd9", type: vmess, server: mix2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_fcad", type: vmess, server: mix2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_d0fa", type: vmess, server: mix2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_a5f4", type: vmess, server: uk3-2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
@@ -1685,71 +1603,6 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_82c0", type: ss, server: 1.0.0.1, port: 80, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_47e6", type: vless, server: bm9uzto2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwranduumtm5ljc3ljuyojq0mw, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_d2de", type: vless, server: bm9uztowy2qxnwqxyi1imte3ltrmmzqtowfhms1jmtrmyzviy2rkodnaodmumtq3lji0my4xotq6mza3nzk, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_a0d1", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojiwodc, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_3e4f", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejoymduz, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_e62c", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejo0ndm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_3ce6", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejoymdk2, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_b8b4", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojq0mw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_b991", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojq0mw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_b802", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojiwntm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_6f5c", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojiwoty, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_036e", type: trojan, server: 104.128.72.119, port: 8081, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d5c2", type: trojan, server: 23.80.80.18, port: 60013, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_3935", type: trojan, server: 23.80.80.22, port: 60013, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_67a3", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejo4ma, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d607", type: hysteria2, server: 23.80.80.18, port: 30158, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_90bd", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojiwodc, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_fe26", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojiwntm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_ef26", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznad3d3lnnob3bpznkuy29tojiwodc, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_4fe5", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejoymdgz, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_7311", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejo0ndm, port: 443, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_4b09", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20704, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_7d0c", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20705, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_0dee", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20708, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_3458", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20709, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_b452", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20703, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_0904", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20714, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_9a05", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20711, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_f720", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20715, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_6da9", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20716, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_1db2", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20717, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_dacb", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20718, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_1df9", type: trojan, server: saibolyscloud01.xn--cjs752erxc.cc, port: 20719, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_ba85", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejoymdk2, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_ec6b", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejoymdk2, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_dcd3", type: vless, server: yxv0bzozmzjjzdvkmc02njziltqzmmitodkzni1lzmi4n2rkm2yymznay2yumdkwmji3lnh5ejoymdk2, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_a695", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiwljeymy44ni4xotg6mjcwmtu, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_c250", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiwljc5ljkumjq3oje5mjiy, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_546d", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiyljexms44oc4xmdk6mzi3nzm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_8149", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiyljewnc4ymjyumje2ojeymdaw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_d50e", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiyljexmy4ymzcumja0ojexmzcx, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_f1ed", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramtqumziumja1lje2mdoxmdaznq, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_d948", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiwljkzljewmi4ymja6mta0ndm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_6333", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramtk1ljiyni4xotqumjiyojiwntm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_ff9f", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiwljeync4xodeumjuxojeymzaw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_602c", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwramjiwljg2ljiyoc4xmdk6mzi2mdm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_710a", type: vless, server: yxv0bzo3ymqyownhyy1mnjkyltq4ytmtodhkms01mdvmn2u1nwywzdbadwfllnnicmyty2rumzqylnj1ojq0mw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_1c5a", type: vless, server: yxv0bzpjzta2oti5mi1jogjmltqwzgqtytzims04nzgxogexzty0ztlamzqumtqzljixmy4ymdi6ndqz, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_9da3", type: vless, server: yxv0bzo2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwrandmumty4lje2ljexmjo0ndm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_95a6", type: vless, server: yxv0bzpjzta2oti5mi1jogjmltqwzgqtytzims04nzgxogexzty0ztlamzqumtgwljeyns4xndo0ndm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_403a", type: vless, server: yxv0bzpjzta2oti5mi1jogjmltqwzgqtytzims04nzgxogexzty0ztlamzqumtgwljeyns4xndo0ndm, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_098d", type: vless, server: yxv0bzphzmnhyzyzmy0wztfhltq2yzmtymvmmi1jyzaxy2mwmdk3yzhacjeubwl6dwxpbmeudg9wojiymjmx, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_93e9", type: vless, server: yxv0bzpjzta2oti5mi1jogjmltqwzgqtytzims04nzgxogexzty0ztlandcuodquotuunzc6ndqz, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_f439", type: vless, server: yxv0bzpjzta2oti5mi1jogjmltqwzgqtytzims04nzgxogexzty0ztlamzqumtgwljeyns4xndo0ndm, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_390f", type: trojan, server: 82.152.166.143, port: 18963, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_2b00", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojiwnti, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_01e4", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojiwnti, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_c179", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojiwnti, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_8a09", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojg4oda, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_0296", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojiwody, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_f9a9", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojgw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_59d7", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojgw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_32a2", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojgw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_71f2", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojgw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_3972", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojiwmdkw, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_107b", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojiwmdkx, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_4299", type: ss, server: mjaymi1ibgfrztmtywvzlteyoc1ny206wvrfmvpxvtravev5wmpjm1ltrxpaqt09ok16txlzmlexwkrbde5qwtjzatawtxc9puaxljeums4xojiwmdky, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_5dd4", type: hysteria2, server: 23.80.80.18, port: 30216, udp: true }
   - { name: "🇨🇦 加拿大 订阅节点聚合器_e8a9", type: vless, server: shopify.com, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_8db1", type: vless, server: time.is, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_2e78", type: vless, server: icook.hk, port: 443, udp: true }
@@ -2019,7 +1872,7 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_4ee7", type: trojan, server: xsus.xs-us.net, port: 8021, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_858c", type: trojan, server: xsus.xs-us.net, port: 8031, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_5088", type: trojan, server: xsus.xs-us.net, port: 8041, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_afa6", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 43713, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e044", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 46589, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_0c74", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10101, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_41e0", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10102, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_4297", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10103, udp: true }
@@ -2091,7 +1944,7 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_f17b", type: trojan, server: xsus.xs-us.net, port: 8021, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_c666", type: trojan, server: xsus.xs-us.net, port: 8031, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ccf6", type: trojan, server: xsus.xs-us.net, port: 8041, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_acc9", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 46253, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c51f", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 46894, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_9714", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10101, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_0b6b", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10102, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_2cb4", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10103, udp: true }
@@ -2162,7 +2015,7 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_4699", type: trojan, server: xsus.xs-us.net, port: 8021, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_8786", type: trojan, server: xsus.xs-us.net, port: 8031, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_786e", type: trojan, server: xsus.xs-us.net, port: 8041, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_00ce", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 40731, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_dc0a", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 46294, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_bc26", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10101, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f746", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10102, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_cf08", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10103, udp: true }
@@ -2229,77 +2082,6 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_ac13", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 24002, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_875d", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23012, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_dee4", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23014, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c32b", type: trojan, server: xsus.xs-us.net, port: 8001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_87b4", type: trojan, server: xsus.xs-us.net, port: 8011, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_442a", type: trojan, server: xsus.xs-us.net, port: 8021, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5e6e", type: trojan, server: xsus.xs-us.net, port: 8031, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_bbd7", type: trojan, server: xsus.xs-us.net, port: 8041, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_555a", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 49491, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7d13", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10101, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7ee4", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10102, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_9947", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10103, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f3f1", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10104, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b662", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10105, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3439", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10106, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7561", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10107, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3935", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10108, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_629a", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10110, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1831", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12011, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_be9d", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12012, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_8373", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12013, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_af8b", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12014, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d756", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12015, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c41b", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12016, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_6aab", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12017, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f497", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12018, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_6507", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12101, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5c85", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12102, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c037", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12103, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c8be", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12104, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f7fe", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12105, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d1f6", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12106, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_8877", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12107, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5291", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12201, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7205", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12202, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_de6b", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12203, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d892", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12204, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3583", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12205, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1c84", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12206, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_0013", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12207, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_21a5", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12208, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_4ff0", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12209, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_e6b3", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 12210, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f95b", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13201, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_8bfc", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13202, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_ef5f", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13203, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_0ce9", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13204, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_47e1", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13205, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_8fa1", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13206, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b81a", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13207, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_df0b", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13208, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b7e3", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 13209, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_4d67", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 14101, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_db9b", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 14102, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5209", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 14103, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b66c", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 14104, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b84e", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 14105, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c947", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 14106, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f67d", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 21101, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a7de", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23004, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_fa9f", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23005, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2a2a", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23000, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2461", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23006, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2c24", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23013, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_37eb", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_eea5", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23019, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5671", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23015, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2ea1", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23002, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_eef1", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23007, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_72e6", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23009, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_fa31", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 24001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_0bed", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 24002, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2158", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23012, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_60a8", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 23014, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_0136", type: hysteria2, server: 129.159.97.206, port: 51000, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_5c95", type: hysteria2, server: 129.146.215.233, port: 51000, udp: true }
   - { name: "🇦🇺 澳大利亚 订阅节点聚合器_7905", type: hysteria2, server: 192.9.165.40, port: 51000, udp: true }
@@ -2319,4 +2101,4 @@ proxies:
   - { name: "🇸🇬 新加坡 订阅节点聚合器_a0ae", type: vless, server: 3-sg.ap.ku-ke.cc, port: 443, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_04f7", type: vless, server: 4-sg.ap.ku-ke.cc, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_689c", type: vless, server: 1-us.ap.ku-ke.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_68fe", type: vless, server: 2-us.ap.ku-ke.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_3e49", type: vless, server: 2-us.ap.ku-ke.cc, port: 443, udp: true }
