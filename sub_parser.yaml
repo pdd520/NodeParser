@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-05-24 17:11:56
-# Total: 1930
+# Updated: 2026-05-24 21:04:10
+# Total: 2674
 
 port: 7890
 mode: Rule
@@ -9,6 +9,652 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
+  - { name: "🇯🇵 日本 订阅节点聚合器_5623", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_dda7", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3858", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_e937", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_019b", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_8337", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_2b7e", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_002e", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_e384", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1290", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_7f34", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_7c04", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5038", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_d572", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_bf91", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_8d17", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_0c10", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_57b2", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_43b5", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_8bd7", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c899", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_035b", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_828a", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1d90", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_aeac", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1820", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6b81", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_2252", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c0ca", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_b552", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_be0f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8acb", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_7506", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_5026", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_3e48", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_bf02", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_51b0", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7596", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2bad", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_9921", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_844a", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_72a9", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_be53", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_8f5f", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_a8ba", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_63af", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3cba", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_daf1", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_42b8", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5a07", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_bd25", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_2541", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_c686", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_76de", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_970c", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ce55", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6c06", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_1208", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4e69", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_9725", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_e6bc", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_373d", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_30c7", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_c53b", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_74f9", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_dc68", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7de1", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d09b", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_fef8", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4050", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_11ac", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_6469", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_9748", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b09e", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_2eaa", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_cd13", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_f882", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2a4c", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ac1e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_191a", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_3c87", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_eea6", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_69cf", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_24ef", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a49e", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6859", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_afcc", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_587b", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8f9f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_719b", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_182a", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_94f0", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_e91a", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8057", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1c9f", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4fce", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_9294", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_52bd", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_51ac", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_e760", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_bf57", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_e411", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6934", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_25b1", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a5d5", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_2be9", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4ec2", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d3e6", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_03db", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_fdd8", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_d374", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6adc", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6c10", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f659", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_41a9", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ed52", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3ac1", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_1629", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_bc64", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7bbb", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_00e1", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_cef8", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_973e", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6e77", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_7921", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_41ff", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4204", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_cc75", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_f45c", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_9815", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3b61", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1b6b", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fe45", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4cde", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_7577", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_8b53", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_a6b6", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_d9b6", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_e9aa", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_fec3", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_0194", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fa34", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_75d0", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f742", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_31a1", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_fe4f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_3870", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_abec", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_4041", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a22e", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8f97", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_2f29", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0171", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_9d61", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_32e4", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2483", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_00d2", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_711d", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_99d6", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6dff", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_77d1", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3371", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8b4f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_0b75", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_32b7", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_1d1c", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_711e", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_a533", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b36c", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d49b", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_0b3f", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_23ec", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ad5d", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_d21e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_170a", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_a152", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_fdb1", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_66aa", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3554", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_499c", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1cf1", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4498", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d617", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_fe01", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_321d", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_e88e", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_6ac9", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_175b", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_42de", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4210", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_7143", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_8d08", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c391", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_53d3", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_6de8", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1273", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_db71", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_45e2", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f92f", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4682", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_239e", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f997", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e798", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_d17e", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_9a47", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_83e9", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8f68", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ca57", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_98fb", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_bbc3", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_34cf", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_55a8", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_7010", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_d8ca", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_d6ce", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_2cf1", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_86ae", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_e9c0", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_be38", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d245", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_dca1", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_480a", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_66e4", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_c730", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_f693", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_12b3", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c05d", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_981c", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_d3ed", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4d79", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_81a7", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_efe1", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_11a4", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_28d7", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_a827", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c290", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_705c", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f05b", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c4fc", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_0afe", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f96f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_44d4", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_954f", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_e3ec", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7c92", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_e4e3", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5ade", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_1445", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_1b99", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3e16", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_219e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_e1ed", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_6a03", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7933", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f9e3", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8fc8", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8f44", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_104b", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d7a4", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_74ea", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_5225", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_3037", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_9bd5", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b788", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8357", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d0a7", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_a8fe", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_d738", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_5dbd", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_7a85", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_d41b", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_a9b1", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_5b0a", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f9f9", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_2a39", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f92a", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_14ce", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_ad43", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_02d9", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_de3b", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_f1aa", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_1357", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5db1", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_14e2", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4b8f", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_8df0", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3b04", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0c2c", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0f0e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_b507", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_83c3", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_2caf", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a3c0", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_27dc", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6617", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_59da", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_b56d", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c6a7", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_4db9", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_992d", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_8557", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3c25", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_980d", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b6fc", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_71f0", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_f48d", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_516c", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_84f0", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_9d54", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_3884", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_779a", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1e3d", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5819", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7b8c", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_08b9", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_33ce", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_b158", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_8cd7", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_ef94", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_063b", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f8ad", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b177", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_937b", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_7085", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_fbc7", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ba99", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_96bb", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_b932", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_448f", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_aa67", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d66b", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_af3e", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4ffc", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_ca17", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_a92d", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_29e5", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_6ee3", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_df04", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_0ab9", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_0bce", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_97c7", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9329", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c970", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c191", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ab46", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_f65c", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_51db", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_9514", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_31a0", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_38fc", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_bfec", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_2d06", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c327", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_3cbc", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4466", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_7617", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_f857", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_ee6b", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_11fb", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_de1a", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ecd4", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2648", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2973", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_b676", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_bfeb", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_a88f", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_d09f", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_168a", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6f7c", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_cb60", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1931", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_53b2", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_af4f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_9046", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_12d2", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_3c9b", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_8963", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9b03", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_687a", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_dcc5", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_000e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_d0b3", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_8531", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4a7f", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_dad9", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_a99e", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_3f32", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d2db", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fe98", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5424", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_27b8", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_a6bd", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_ca15", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_117f", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_b087", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_6848", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c326", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c3a7", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fcbf", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_e1a6", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3a40", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_6da2", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_1f06", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_d608", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7a14", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_bee7", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ca2e", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8553", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5544", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_0642", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_bb28", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_a531", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_69d7", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_a7e7", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_b338", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a655", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_0e3a", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9fd2", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ee4d", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_cb57", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_430a", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_76a8", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_4cc5", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1579", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_47ec", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8fb3", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9f5c", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_38d9", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_2e16", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_a2e9", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4551", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_bff7", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_cd3e", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_76d3", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_37b6", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3ce4", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4178", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_00e6", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c277", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_cea0", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_78a8", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_b5a3", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_06be", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_ac55", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5687", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_90a3", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9e00", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_2dbe", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_abc8", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8a88", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_34f4", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_66cc", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_b991", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_994f", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_466b", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_e620", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2e3b", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c41a", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2ec2", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3c59", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_57ab", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_fe3f", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7460", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b0e6", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f00e", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_0a44", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_9920", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8716", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_eb9f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_e3fa", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_c546", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_ebf3", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7358", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_895a", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4999", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3ddf", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2d45", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_2461", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_59f6", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_ea67", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_cc81", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7c33", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1541", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f0e6", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fb85", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d892", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_85b9", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e5fc", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_8976", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_96e0", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_f2ef", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b80a", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c70d", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_229c", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3c5e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_9056", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3f0f", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_e16f", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_b905", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_9e54", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1e06", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_58a7", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a2ed", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ef00", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d7cf", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d742", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5d1c", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_bf66", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_ff50", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_cbcc", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_59d7", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_61be", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9d85", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_6e20", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_cf86", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_e15e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_d313", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_8515", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_e252", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_0699", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5c1d", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c449", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8488", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_75f1", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_cd1f", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8cfc", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_4b6e", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_d40e", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_e791", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_357f", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_723a", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3b38", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_d948", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c401", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_09ba", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_11f1", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_0994", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_32f9", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_6ae9", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_e4a0", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fe0c", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6042", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_38c7", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8089", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_69fb", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_e045", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_2a39", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_8d7f", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_511d", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_bd89", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_48e8", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0321", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_8d95", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_9796", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_44c8", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_f0cf", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_5623", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_aad7", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3b2b", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_21c6", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c33a", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_a162", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e6c3", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_766b", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_b6ee", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_66e2", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_e3c5", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b47b", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fb03", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ddfe", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_f8e9", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4d08", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_1691", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_280b", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_c532", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_47c8", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_3ce8", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6b5c", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_087a", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d5a4", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e809", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_298e", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_1770", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_078d", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_c914", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_6f1f", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_12e1", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ac53", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_29a2", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3808", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_51e1", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_3c54", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_240e", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_3341", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_0975", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_21d1", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_c905", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_8458", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_143a", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_39ba", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_1e55", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5e20", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_c9d7", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_f8d3", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_bbd2", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_7707", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_76c7", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_a2e2", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_48aa", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_89c0", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0312", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4cc2", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_9b8a", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7897", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_5579", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_f932", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_bb70", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_326b", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_1240", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_15af", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_16fd", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_20fd", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_58e7", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_437b", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_2492", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ecc6", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ca45", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_eece", type: vless, server: www-jp.xiaobaivpn.icu, port: 33000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0e34", type: vless, server: www-jp.xiaobaivpn.icu, port: 33001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_b61b", type: vless, server: www-jp.xiaobaivpn.icu, port: 33002, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0106", type: vless, server: www-jp.xiaobaivpn.icu, port: 33003, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_74a0", type: vless, server: www-kr.xiaobaivpn.icu, port: 33004, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_bd42", type: vless, server: www-kr.xiaobaivpn.icu, port: 33005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1793", type: vless, server: www-kr.xiaobaivpn.icu, port: 33006, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6e1e", type: vless, server: www-sg.xiaobaivpn.icu, port: 33007, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ee78", type: vless, server: www-sg.xiaobaivpn.icu, port: 33008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d7d7", type: vless, server: www-sg.xiaobaivpn.icu, port: 33009, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5ec8", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20001, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_a484", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20002, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d69c", type: trojan, server: xbsvip-uz.xiaobaivpn.icu, port: 20003, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_b233", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28007, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_60ce", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28008, udp: true }
+  - { name: "🇻🇳 越南 订阅节点聚合器_523c", type: trojan, server: vn-xbsvip.xiaobaivpn.icu, port: 28009, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_90e8", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_2740", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28002, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fc54", type: trojan, server: sg-xbsvip.xiaobaivpn.icu, port: 28003, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_624a", type: hysteria2, server: 1sg001.476579.xyz, port: 8443, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_7ef0", type: hysteria2, server: hkmax02.352343.cc, port: 8080, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_3576", type: hysteria2, server: 2406:da18:13ff:d000:a6d5:e68a:4f00:efcf, port: 8080, udp: true }
@@ -268,53 +914,52 @@ proxies:
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_7ea2", type: trojan, server: llyhllyhhwydns02.xn--cjs752erxc.cc, port: 20712, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_e30f", type: trojan, server: llyhllyhhwydns02.xn--cjs752erxc.cc, port: 20713, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_4516", type: vmess, server: 165.154.195.38, port: 35034, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, cipher: auto, tls: false, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_2852", type: vmess, server: 168.138.43.75, port: 80, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, cipher: auto, tls: false, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_c232", type: vmess, server: vpnicp.xyc.hk.cn, port: 20001, uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83, cipher: auto, tls: false, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_6875", type: vmess, server: 82.198.246.250, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, cipher: auto, tls: false, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_9d23", type: vless, server: 216.57.108.24, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_dd76", type: vless, server: hk1.ap221.com, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_0dc7", type: vless, server: 64.188.56.58, port: 443, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_4e43", type: vless, server: download.riferoser.icu, port: 443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_4b1f", type: vless, server: jp.nodes.rocketnetwork.ru, port: 443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_766b", type: vless, server: 47.79.144.103, port: 25242, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_6faa", type: vless, server: 222.97.226.51, port: 19888, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_67ec", type: vless, server: 172.67.68.237, port: 443, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_b57f", type: vless, server: 219.255.114.230, port: 18889, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_15db", type: vless, server: 185.170.154.111, port: 50575, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_c55d", type: hysteria2, server: tw.9966690.xyz, port: 40000, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_4ce1", type: vless, server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_30b3", type: vless, server: 67.215.229.234, port: 50000, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_7c5b", type: vless, server: 206.189.99.40, port: 433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_170c", type: vless, server: 150.230.168.70, port: 50479, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_7c03", type: vless, server: 82.153.50.142, port: 8081, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_961f", type: vless, server: 217.142.138.61, port: 37914, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_df72", type: vless, server: 138.2.32.76, port: 15821, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_01f8", type: vless, server: 15.204.205.208, port: 449, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_42f9", type: vless, server: 91.107.166.26, port: 8888, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_a529", type: vless, server: 150.241.123.99, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_6cc4", type: vless, server: 140.235.130.147, port: 2053, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_d162", type: vless, server: 193.219.99.39, port: 8443, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_67ea", type: vless, server: 94.156.177.78, port: 443, udp: true }
-  - { name: "🇦🇹 奥地利 订阅节点聚合器_a629", type: vless, server: 152.53.225.145, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_2f55", type: vless, server: 161.35.213.151, port: 2083, udp: true }
-  - { name: "🇪🇪 爱沙尼亚 订阅节点聚合器_0042", type: vless, server: 92.61.71.49, port: 443, udp: true }
-  - { name: "🇫🇮 芬兰 订阅节点聚合器_841b", type: vless, server: 94.183.189.34, port: 8443, udp: true }
-  - { name: "🇮🇸 冰岛 订阅节点聚合器_6e0c", type: vless, server: 151.236.24.54, port: 443, udp: true }
-  - { name: "🇪🇪 爱沙尼亚 订阅节点聚合器_43b8", type: vless, server: 85.137.167.53, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_35ea", type: vless, server: 46.101.145.137, port: 443, udp: true }
-  - { name: "🇫🇮 芬兰 订阅节点聚合器_5a5b", type: vless, server: 46.8.64.53, port: 443, udp: true }
-  - { name: "🇨🇭 瑞士 订阅节点聚合器_e274", type: vless, server: 138.124.32.119, port: 443, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_aaf2", type: vless, server: 72.56.95.38, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_35b1", type: vless, server: 206.189.82.100, port: 443, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_1e98", type: vless, server: 31.24.251.152, port: 2053, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_ac28", type: vless, server: 178.128.82.93, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_4c0c", type: vless, server: 148.135.119.123, port: 443, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_ca74", type: vless, server: 77.238.244.200, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_92a4", type: vless, server: 5.182.87.234, port: 8443, udp: true }
-  - { name: "🇨🇭 瑞士 订阅节点聚合器_4bc2", type: vless, server: 83.228.242.220, port: 443, udp: true }
-  - { name: "🇨🇦 加拿大 订阅节点聚合器_311e", type: vless, server: 142.248.218.45, port: 2053, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_481d", type: vless, server: 178.104.79.228, port: 443, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_259e", type: vless, server: 188.166.8.202, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c787", type: vmess, server: 216.106.185.141, port: 22324, uuid: 04621bae-ab36-11ec-b909-0242ac120002, cipher: auto, tls: false, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_77f5", type: vmess, server: 82.198.246.233, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, cipher: auto, tls: false, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_35ac", type: vless, server: taipei1.ap221.com, port: 443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_afe1", type: vless, server: tokyo1.ap221.com, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_11ed", type: vless, server: 149.104.28.66, port: 15660, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_22bf", type: vless, server: 123.143.6.105, port: 11001, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_5249", type: vless, server: 110.15.143.174, port: 19999, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_063f", type: hysteria2, server: zf.9966690.xyz, port: 60008, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_9082", type: hysteria2, server: zf.9966690.xyz, port: 60007, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_da16", type: hysteria2, server: zf.9966690.xyz, port: 60009, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_6d0e", type: hysteria2, server: zf.9966690.xyz, port: 60018, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_3b46", type: hysteria2, server: zf.9966690.xyz, port: 60016, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_59b6", type: hysteria2, server: zf.9966690.xyz, port: 60043, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_fc8d", type: vless, server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz, port: 443, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_9a5f", type: vless, server: 134.209.202.182, port: 8443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e35d", type: vless, server: 172.235.54.221, port: 443, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_f567", type: vless, server: 77.238.235.15, port: 8443, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_b04f", type: vless, server: 185.130.225.252, port: 443, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_4689", type: vless, server: 103.85.114.160, port: 443, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_f516", type: vless, server: 77.221.153.59, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_f47b", type: vless, server: 77.221.157.92, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_5b64", type: vless, server: 178.17.58.218, port: 8443, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_b431", type: vless, server: 95.85.57.125, port: 443, udp: true }
+  - { name: "🇬🇧 英国 订阅节点聚合器_57a6", type: vless, server: 139.59.186.54, port: 443, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_391e", type: vless, server: 188.226.167.20, port: 443, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_c880", type: vless, server: 194.116.217.184, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_dcd5", type: vless, server: 167.99.244.254, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_4fff", type: vless, server: 161.35.73.222, port: 2096, udp: true }
+  - { name: "🇬🇧 英国 订阅节点聚合器_3b5a", type: vless, server: 193.219.99.28, port: 8443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_e793", type: vless, server: 150.241.95.16, port: 443, udp: true }
+  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_f99c", type: vless, server: 85.239.58.104, port: 443, udp: true }
+  - { name: "🇨🇦 加拿大 订阅节点聚合器_2c8a", type: vless, server: 142.248.219.215, port: 2053, udp: true }
+  - { name: "🇹🇷 土耳其 订阅节点聚合器_c2c4", type: vless, server: 138.124.107.101, port: 8443, udp: true }
+  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_8df0", type: vless, server: 64.188.90.196, port: 8443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_9c27", type: vless, server: 144.31.66.244, port: 443, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_6707", type: vless, server: 188.226.128.180, port: 443, udp: true }
+  - { name: "🇸🇪 瑞典 订阅节点聚合器_8848", type: vless, server: 109.120.156.122, port: 8443, udp: true }
+  - { name: "🇨🇭 瑞士 订阅节点聚合器_d7e3", type: vless, server: 138.124.244.49, port: 8443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_3030", type: vless, server: 91.99.125.42, port: 30000, udp: true }
+  - { name: "🇮🇹 意大利 订阅节点聚合器_e00b", type: vless, server: 129.152.2.127, port: 1488, udp: true }
+  - { name: "🇫🇮 芬兰 订阅节点聚合器_bb6a", type: vless, server: 95.217.186.94, port: 9443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ee70", type: vless, server: 138.2.89.238, port: 43254, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c0f4", type: vless, server: 195.123.241.122, port: 50008, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b548", type: vless, server: 139.180.136.32, port: 2443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8f7d", type: vless, server: 96.126.112.12, port: 38298, udp: true }
+  - { name: "🇱🇻 拉脱维亚 订阅节点聚合器_70a4", type: vless, server: 188.253.22.103, port: 4443, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_2a91", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 27006, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_e896", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 47009, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_a895", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 47010, udp: true }
@@ -344,17 +989,23 @@ proxies:
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_40a0", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 47045, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_1ccb", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 37751, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_e263", type: trojan, server: zangcloud.xn--cjs752erxc.cc, port: 37749, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_9b93", type: trojan, server: 116.80.61.224, port: 443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_74ec", type: vmess, server: 165.154.195.38, port: 35034, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, cipher: auto, tls: false, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_cf36", type: vmess, server: 168.138.43.75, port: 80, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, cipher: auto, tls: false, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d94c", type: vmess, server: vpnicp.xyc.hk.cn, port: 20001, uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83, cipher: auto, tls: false, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_b70c", type: vmess, server: 82.198.246.250, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, cipher: auto, tls: false, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_f8e0", type: hysteria2, server: tw.9966690.xyz, port: 40000, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_2291", type: vless, server: 134.122.194.186, port: 443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_20e4", type: vless, server: 185.200.66.168, port: 8443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_0a11", type: vless, server: 142.248.139.25, port: 22525, udp: true }
-  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_a8dc", type: vless, server: s28315.cdn.ngenix.net, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_188a", type: vless, server: 15.204.97.198, port: 23576, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c312", type: vmess, server: 216.106.185.141, port: 22324, uuid: 04621bae-ab36-11ec-b909-0242ac120002, cipher: auto, tls: false, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_7d64", type: vmess, server: 82.198.246.233, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, cipher: auto, tls: false, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_e77e", type: vmess, server: 82.198.246.9, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, cipher: auto, tls: false, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_1e89", type: hysteria2, server: zf.9966690.xyz, port: 60008, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_c7b3", type: hysteria2, server: zf.9966690.xyz, port: 60007, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d4c3", type: hysteria2, server: zf.9966690.xyz, port: 60009, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_90e5", type: hysteria2, server: zf.9966690.xyz, port: 60010, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_22cf", type: hysteria2, server: zf.9966690.xyz, port: 60006, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_2282", type: hysteria2, server: zf.9966690.xyz, port: 60018, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_3daa", type: hysteria2, server: zf.9966690.xyz, port: 60016, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_0aad", type: hysteria2, server: zf.9966690.xyz, port: 60020, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_a4fd", type: hysteria2, server: zf.9966690.xyz, port: 60017, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_ba2c", type: hysteria2, server: zf.9966690.xyz, port: 60043, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_824b", type: vless, server: 38.207.182.150, port: 28825, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e61b", type: vless, server: 185.92.180.176, port: 2053, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_dcb9", type: vless, server: ru3.banovano.space, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_354f", type: ss, server: 127.0.0.1, port: 7800, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_c317", type: ss, server: 127.0.0.1, port: 1, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_4f0a", type: trojan, server: us6lh1fsyabizv5m.lovebaipiao.net, port: 443, udp: true }
@@ -391,7 +1042,7 @@ proxies:
   - { name: "🌐 未知地区 订阅节点聚合器_692b", type: ss, server: 127.0.0.1, port: 2, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_94ef", type: ss, server: 127.0.0.1, port: 1, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_9a32", type: ss, server: 127.0.0.1, port: 2, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_6bbd", type: trojan, server: pokemon-01.yunjnet.com, port: 55016, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_6bbd", type: trojan, server: pokemon-01.yunjnet.com, port: 55016, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_e1c7", type: hysteria2, server: hkt03ddns.poke-mon.xyz, port: 20000, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_edb5", type: hysteria2, server: hk01.poke-mon.xyz, port: 443, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_68a5", type: vless, server: vless-hk01.yunjnet.com, port: 50133, udp: true }
@@ -408,19 +1059,19 @@ proxies:
   - { name: "🇬🇧 英国 订阅节点聚合器_111e", type: trojan, server: pokemon-02.yunjnet.com, port: 55027, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_5f88", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54258, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_7fa4", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54258, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_e2d5", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_e2d5", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_744d", type: trojan, server: pokemonjp-02.yunjnet.com, port: 54032, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_b444", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54261, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_ab9f", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54261, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_81f7", type: trojan, server: pokemon-02.yunjnet.com, port: 54029, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_1f14", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1f14", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_57ef", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_df44", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_67a5", type: trojan, server: pokemonus-02.yunjnet.com, port: 56017, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_b8d7", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_b16b", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54273, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_191c", type: trojan, server: pokemon-02.yunjnet.com, port: 56019, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_51f0", type: trojan, server: pokemon-01.yunjnet.com, port: 55016, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_51f0", type: trojan, server: pokemon-01.yunjnet.com, port: 55016, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_cd6f", type: hysteria2, server: hkt03ddns.poke-mon.xyz, port: 20000, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_c0d5", type: hysteria2, server: hk01.poke-mon.xyz, port: 443, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_ec43", type: vless, server: vless-hk01.yunjnet.com, port: 50133, udp: true }
@@ -437,14 +1088,14 @@ proxies:
   - { name: "🇬🇧 英国 订阅节点聚合器_6672", type: trojan, server: pokemon-02.yunjnet.com, port: 55027, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_0eaf", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54258, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_8546", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54258, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a863", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_a863", type: trojan, server: pokemonjp-01.yunjnet.com, port: 54032, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_c478", type: trojan, server: pokemonjp-02.yunjnet.com, port: 54032, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_604f", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54261, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_afc6", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54261, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_9ad7", type: trojan, server: pokemon-02.yunjnet.com, port: 54029, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_96c5", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_9d52", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_29ab", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_96c5", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_9d52", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_29ab", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_e6da", type: trojan, server: pokemonus-02.yunjnet.com, port: 56017, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_054e", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_41cc", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54273, udp: true }
@@ -471,8 +1122,8 @@ proxies:
   - { name: "🌐 未知地区 订阅节点聚合器_00be", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54261, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_1fb7", type: trojan, server: ptxlv6-2.yunjnet.com, port: 54261, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_5e2c", type: trojan, server: pokemon-02.yunjnet.com, port: 54029, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_3b9e", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_e6ae", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3b9e", type: trojan, server: pokemon-01.yunjnet.com, port: 59110, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_e6ae", type: trojan, server: pokemon-01.yunjnet.com, port: 59099, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_3525", type: trojan, server: pokemonus-01.yunjnet.com, port: 56115, udp: true }
   - { name: "🇲🇾 马来西亚 订阅节点聚合器_b56a", type: trojan, server: pokemonus-02.yunjnet.com, port: 56017, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_236c", type: trojan, server: ptxlv6-1.yunjnet.com, port: 54273, udp: true }
@@ -535,19 +1186,19 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_fed3", type: vless, server: cf.tencentapp.cn, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_49c6", type: vless, server: cf.tencentapp.cn, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_7274", type: vless, server: cf.tencentapp.cn, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_d5ce", type: vless, server: da.mfa.gov.ua, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_eb4f", type: vless, server: dnew.cc, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_07b9", type: vless, server: ip.sb, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_0186", type: vless, server: openai.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_fa47", type: vless, server: cu.877774.xyz, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1790", type: vless, server: 01-qq.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_01d0", type: vless, server: cdn.7zz.cn, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_ebc5", type: vless, server: www.mc.js.cool, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_45cf", type: vless, server: time.is, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_18a0", type: vless, server: cf.090227.xyz, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c7ae", type: vless, server: store.ubi.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1027", type: vless, server: mfa.gov.ua, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5a81", type: vless, server: tajikistan.mfa.gov.ua, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_30f9", type: vless, server: da.mfa.gov.ua, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_13b2", type: vless, server: dnew.cc, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_e62d", type: vless, server: ip.sb, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_bd8c", type: vless, server: openai.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7c5f", type: vless, server: cu.877774.xyz, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_774c", type: vless, server: 01-qq.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_9d29", type: vless, server: cdn.7zz.cn, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f974", type: vless, server: www.mc.js.cool, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7cb2", type: vless, server: time.is, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5ecc", type: vless, server: cf.090227.xyz, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_1bac", type: vless, server: store.ubi.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_940e", type: vless, server: mfa.gov.ua, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_d269", type: vless, server: tajikistan.mfa.gov.ua, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_5770", type: vmess, server: www.onesy1.cc, port: 10086, uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_8f01", type: vmess, server: www.onesy1.cc, port: 10086, uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_2588", type: vmess, server: www.onesy1.cc, port: 443, uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0, cipher: auto, tls: false, udp: true }
@@ -1002,6 +1653,36 @@ proxies:
   - { name: "🇫🇷 法国 订阅节点聚合器_4ffa", type: vmess, server: planb.mojcn.com, port: 16645, uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_3461", type: vmess, server: m.cnmjin.net, port: 16645, uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_35ed", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: d4ab51e4-4dc7-4394-9db2-bd6779586fef, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_ebcb", type: vmess, server: planb.mojcn.com, port: 16617, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_3fbe", type: vmess, server: planb.mojcn.com, port: 16617, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_de32", type: vmess, server: planb.mojcn.com, port: 16617, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_2057", type: vmess, server: planb.mojcn.com, port: 16617, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_5c64", type: vmess, server: m.cnmjin.net, port: 16617, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_bdf0", type: vmess, server: t.cnmjcn.cyou, port: 16617, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_1a1c", type: vmess, server: planb.mojcn.com, port: 16618, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_8a33", type: vmess, server: m.cnmjin.net, port: 16618, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_27f4", type: vmess, server: t.cnmjcn.cyou, port: 16618, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_144e", type: vmess, server: planb.mojcn.com, port: 16632, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_dde7", type: vmess, server: m.cnmjin.net, port: 16632, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_01f2", type: vmess, server: t.cnmjcn.cyou, port: 16632, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_3b4f", type: vmess, server: planb.mojcn.com, port: 16622, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_62f0", type: vmess, server: m.cnmjin.net, port: 16622, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_3275", type: vmess, server: t.cnmjcn.cyou, port: 16622, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_67fe", type: vmess, server: planb.mojcn.com, port: 16626, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_6647", type: vmess, server: planb.mojcn.com, port: 16616, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_22c7", type: vmess, server: m.cnmjin.net, port: 16616, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_b7d8", type: vmess, server: t.cnmjcn.cyou, port: 16616, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_61cc", type: vmess, server: planb.mojcn.com, port: 16648, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_b794", type: vmess, server: m.cnmjin.net, port: 16648, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_e7eb", type: vmess, server: t.cnmjcn.cyou, port: 16648, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_f627", type: vmess, server: planb.mojcn.com, port: 16641, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_3af2", type: vmess, server: m.cnmjin.net, port: 16641, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_e19d", type: vmess, server: t.cnmjcn.cyou, port: 16641, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_8d42", type: vmess, server: planb.mojcn.com, port: 16644, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_e704", type: vmess, server: m.cnmjin.net, port: 16644, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_122b", type: vmess, server: planb.mojcn.com, port: 16645, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_b371", type: vmess, server: m.cnmjin.net, port: 16645, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_4925", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: b87ed81f-c6d5-4f51-a8db-955b2bc2b9fd, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_476c", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_4e0b", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_aed5", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 95921411-4096-4708-a39b-e73b35624b2d, cipher: auto, tls: false, udp: true }
@@ -1123,36 +1804,6 @@ proxies:
   - { name: "🇫🇷 法国 订阅节点聚合器_9bcb", type: vmess, server: m.cnmjin.net, port: 16645, uuid: 07301dfa-c32c-4dfe-9aaf-1b3c8f74eb24, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_116a", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: 07301dfa-c32c-4dfe-9aaf-1b3c8f74eb24, cipher: auto, tls: false, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_21a2", type: hysteria2, server: hkt.niaot.com, port: 44001, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_d79c", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_6af3", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_d576", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_7739", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_aaae", type: vmess, server: m.cnmjin.net, port: 16617, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_d2bf", type: vmess, server: t.cnmjcn.cyou, port: 16617, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_a70a", type: vmess, server: planb.mojcn.com, port: 16618, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_1964", type: vmess, server: m.cnmjin.net, port: 16618, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_431b", type: vmess, server: t.cnmjcn.cyou, port: 16618, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_fa9a", type: vmess, server: planb.mojcn.com, port: 16632, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_9993", type: vmess, server: m.cnmjin.net, port: 16632, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_eb23", type: vmess, server: t.cnmjcn.cyou, port: 16632, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_ba44", type: vmess, server: planb.mojcn.com, port: 16622, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_af92", type: vmess, server: m.cnmjin.net, port: 16622, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_8bae", type: vmess, server: t.cnmjcn.cyou, port: 16622, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_65e9", type: vmess, server: planb.mojcn.com, port: 16626, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_0f2c", type: vmess, server: planb.mojcn.com, port: 16616, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_cb0c", type: vmess, server: m.cnmjin.net, port: 16616, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_5dc6", type: vmess, server: t.cnmjcn.cyou, port: 16616, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_28f0", type: vmess, server: planb.mojcn.com, port: 16648, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_2639", type: vmess, server: m.cnmjin.net, port: 16648, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_3118", type: vmess, server: t.cnmjcn.cyou, port: 16648, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_c1f3", type: vmess, server: planb.mojcn.com, port: 16641, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_dd67", type: vmess, server: m.cnmjin.net, port: 16641, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_a737", type: vmess, server: t.cnmjcn.cyou, port: 16641, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_b73b", type: vmess, server: planb.mojcn.com, port: 16644, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_c1ff", type: vmess, server: m.cnmjin.net, port: 16644, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_a357", type: vmess, server: planb.mojcn.com, port: 16645, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_6b64", type: vmess, server: m.cnmjin.net, port: 16645, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_66db", type: vmess, server: t.cnmjcn.cyou, port: 16645, uuid: 3d5cbf93-154f-4906-82d0-ecc799708235, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_30a3", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 04081b53-62a0-4dc7-a271-4ba817a30a78, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_6abc", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 04081b53-62a0-4dc7-a271-4ba817a30a78, cipher: auto, tls: false, udp: true }
   - { name: "🇫🇷 法国 订阅节点聚合器_fd01", type: vmess, server: planb.mojcn.com, port: 16617, uuid: 04081b53-62a0-4dc7-a271-4ba817a30a78, cipher: auto, tls: false, udp: true }
@@ -1445,7 +2096,7 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_5a25", type: ss, server: cf.877774.xyz, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_f59d", type: ss, server: cdns.doon.eu.org, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_9365", type: ss, server: sub.danfeng.eu.org, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_fd98", type: ss, server: cf.zhetengsha.eu.org, port: 443, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_fd98", type: ss, server: cf.zhetengsha.eu.org, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_4639", type: trojan, server: ab.tuotuoyun.cc, port: 1011, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f882", type: trojan, server: hongkong2.tuotuoyun.fyi, port: 1129, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_e1e6", type: trojan, server: hongkong3.tuotuoyun.us, port: 1130, udp: true }
@@ -1467,8 +2118,36 @@ proxies:
   - { name: "🇯🇵 日本 订阅节点聚合器_b1a5", type: trojan, server: xwech.live-bilibili-dns.online, port: 54550, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_6ad6", type: trojan, server: xwech.live-bilibili-dns.online, port: 54961, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_e797", type: trojan, server: xwech.live-bilibili-dns.online, port: 13557, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_0264", type: vmess, server: 127.0.0.1, port: 80, uuid: a541dc36-cccc-46a1-b652-b75b4fd616b5, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_9fa4", type: vmess, server: 127.0.0.1, port: 80, uuid: 10c3bf64-9989-41c3-ac5c-d73215c43fda, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_a666", type: vmess, server: 127.0.0.1, port: 80, uuid: 52ae2e30-cfee-402e-87cd-9317fb72c43e, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_c4d0", type: vmess, server: 127.0.0.1, port: 80, uuid: 659c555e-41b3-48f0-b8be-de7fb1cd2fea, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_380d", type: trojan, server: jplic.osaip.net, port: 25055, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_bcfd", type: trojan, server: usrna.osaip.net, port: 25055, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f072", type: trojan, server: hkzoa.osaip.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_6899", type: trojan, server: hklia.m2net.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_05cb", type: trojan, server: hkwoa.m2net.net, port: 443, udp: true }
+  - { name: "🇹🇷 土耳其 订阅节点聚合器_a892", type: trojan, server: trbya.osaip.net, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_88fa", type: trojan, server: deria.m2net.net, port: 443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c3c5", type: trojan, server: jplic.osaip.net, port: 25055, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_fde7", type: trojan, server: usrna.osaip.net, port: 25055, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_e14d", type: trojan, server: hkzoa.osaip.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_0d32", type: trojan, server: hklia.m2net.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_8730", type: trojan, server: hkwoa.m2net.net, port: 443, udp: true }
+  - { name: "🇹🇷 土耳其 订阅节点聚合器_2185", type: trojan, server: trbya.osaip.net, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_2fcf", type: trojan, server: deria.m2net.net, port: 443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_fbe9", type: trojan, server: jplic.osaip.net, port: 25055, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4e90", type: trojan, server: usrna.osaip.net, port: 25055, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_7ced", type: trojan, server: hkzoa.osaip.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_2023", type: trojan, server: hklia.m2net.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_6c34", type: trojan, server: hkwoa.m2net.net, port: 443, udp: true }
+  - { name: "🇹🇷 土耳其 订阅节点聚合器_5901", type: trojan, server: trbya.osaip.net, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_6eb1", type: trojan, server: deria.m2net.net, port: 443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_52e7", type: trojan, server: jplic.osaip.net, port: 25055, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5e22", type: trojan, server: usrna.osaip.net, port: 25055, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_0dfa", type: trojan, server: hkzoa.osaip.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_7028", type: trojan, server: hklia.m2net.net, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a3b7", type: trojan, server: hkwoa.m2net.net, port: 443, udp: true }
+  - { name: "🇹🇷 土耳其 订阅节点聚合器_dd01", type: trojan, server: trbya.osaip.net, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_dc70", type: trojan, server: deria.m2net.net, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_2acc", type: vmess, server: hk26.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_78bf", type: vmess, server: hk26.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_3216", type: vmess, server: hk26.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
@@ -1491,9 +2170,74 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_85cc", type: vmess, server: uk2-2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_73ce", type: vmess, server: hk2.998998.best, port: 443, uuid: 9c851606-9722-42fc-a1c1-175c3c82a7ae, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_82c0", type: ss, server: 1.0.0.1, port: 80, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_92c0", type: vless, server: yxv0bzoymtyznmvhns1iowzkltq3owetoty3ny1hnduwzdblnznjzwranzcumta1lje2my4xmjq6ndqz, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_47e6", type: vless, server: bm9uzto2mjayyjizmc00mtdjltrkogutyjyync0wzjcxywzhowm3nwranduumtm5ljc3ljuyojq0mw, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_d2de", type: vless, server: bm9uztowy2qxnwqxyi1imte3ltrmmzqtowfhms1jmtrmyzviy2rkodnaodmumtq3lji0my4xotq6mza3nzk, port: 443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d400", type: trojan, server: vless01.waimaosass.icu, port: 48762, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ba87", type: trojan, server: vless02.waimaosass.icu, port: 48762, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_ab50", type: trojan, server: vless01.waimaosass.icu, port: 40456, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d013", type: trojan, server: vless02.waimaosass.icu, port: 40456, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4663", type: trojan, server: vless01.waimaosass.icu, port: 40457, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1718", type: trojan, server: vless02.waimaosass.icu, port: 40457, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_27a2", type: vless, server: bm9uztowmzzinmu2yy0wmzhjltq2ndgtotuzns1lotjkndczyme1odbay2yuodc3nzc0lnh5ejo0ndm, port: 443, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_a13a", type: vless, server: bm9uztowmzzinmu2yy0wmzhjltq2ndgtotuzns1lotjkndczyme1odbay2yuodc3nzc0lnh5ejo0ndm, port: 443, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_1a61", type: vless, server: bm9uztowmzzinmu2yy0wmzhjltq2ndgtotuzns1lotjkndczyme1odbay2yuodc3nzc0lnh5ejo0ndm, port: 443, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_f329", type: vless, server: bm9uztowmzzinmu2yy0wmzhjltq2ndgtotuzns1lotjkndczyme1odbay2yuodc3nzc0lnh5ejo0ndm, port: 443, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_c53a", type: vless, server: bm9uztowmzzinmu2yy0wmzhjltq2ndgtotuzns1lotjkndczyme1odbamta0lje4ljq1ljiymzo0ndm, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_aabc", type: trojan, server: usa1.wanxiangjd.cc, port: 14010, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_523a", type: trojan, server: usa3.wanxiangjd.cc, port: 14010, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_0e43", type: hysteria2, server: hk.subwx.com, port: 35000, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_de54", type: trojan, server: a1.wanxiangjd.cc, port: 10001, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_c039", type: trojan, server: a1.wanxiangjd.cc, port: 10002, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_5bc0", type: trojan, server: a1.wanxiangjd.cc, port: 10003, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_fd98", type: trojan, server: a1.wanxiangjd.cc, port: 10004, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_7eb1", type: trojan, server: a1.wanxiangjd.cc, port: 10005, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_5ea2", type: trojan, server: a1.wanxiangjd.cc, port: 10006, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_553d", type: trojan, server: a1.wanxiangjd.cc, port: 10007, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_d8d8", type: trojan, server: a1.wanxiangjd.cc, port: 10008, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_1df5", type: trojan, server: a1.wanxiangjd.cc, port: 10009, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_2998", type: trojan, server: a1.wanxiangjd.cc, port: 10010, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_6154", type: trojan, server: a1.wanxiangjd.cc, port: 10011, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_2572", type: trojan, server: a1.wanxiangjd.cc, port: 10012, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_a22b", type: trojan, server: a1.wanxiangjd.cc, port: 11001, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_5d28", type: trojan, server: a1.wanxiangjd.cc, port: 11002, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_3fc0", type: trojan, server: a1.wanxiangjd.cc, port: 11003, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_0fa4", type: trojan, server: a1.wanxiangjd.cc, port: 11004, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_be92", type: trojan, server: a1.wanxiangjd.cc, port: 11005, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_796b", type: trojan, server: a1.wanxiangjd.cc, port: 11006, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_ff81", type: trojan, server: a1.wanxiangjd.cc, port: 11007, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_e07d", type: trojan, server: a1.wanxiangjd.cc, port: 11008, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_a522", type: trojan, server: a1.wanxiangjd.cc, port: 11009, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_a03b", type: trojan, server: a1.wanxiangjd.cc, port: 11010, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_a597", type: trojan, server: a1.wanxiangjd.cc, port: 12001, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_9fbe", type: trojan, server: a1.wanxiangjd.cc, port: 12002, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_4b81", type: trojan, server: a1.wanxiangjd.cc, port: 12003, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_8324", type: trojan, server: a1.wanxiangjd.cc, port: 12004, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_4948", type: trojan, server: a1.wanxiangjd.cc, port: 12005, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_a3ce", type: trojan, server: a1.wanxiangjd.cc, port: 12006, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_0e5c", type: trojan, server: a1.wanxiangjd.cc, port: 12007, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_0c2a", type: trojan, server: a1.wanxiangjd.cc, port: 12008, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_9c49", type: trojan, server: a1.wanxiangjd.cc, port: 12009, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_977b", type: trojan, server: a1.wanxiangjd.cc, port: 12010, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_9a90", type: trojan, server: a1.wanxiangjd.cc, port: 13001, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_76c1", type: trojan, server: a1.wanxiangjd.cc, port: 13002, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_59e1", type: trojan, server: a1.wanxiangjd.cc, port: 13003, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_bcda", type: trojan, server: a1.wanxiangjd.cc, port: 13004, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_380b", type: trojan, server: a1.wanxiangjd.cc, port: 13005, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_6794", type: trojan, server: a1.wanxiangjd.cc, port: 13006, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_f0b4", type: trojan, server: a1.wanxiangjd.cc, port: 13007, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_ca14", type: trojan, server: a1.wanxiangjd.cc, port: 13008, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_c74e", type: trojan, server: a1.wanxiangjd.cc, port: 13009, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_44d4", type: trojan, server: a1.wanxiangjd.cc, port: 13010, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_23e5", type: trojan, server: a1.wanxiangjd.cc, port: 14001, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_000a", type: trojan, server: a1.wanxiangjd.cc, port: 14002, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_2769", type: trojan, server: a1.wanxiangjd.cc, port: 14003, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_c475", type: trojan, server: a1.wanxiangjd.cc, port: 14004, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_786c", type: trojan, server: a1.wanxiangjd.cc, port: 14005, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_5718", type: trojan, server: a1.wanxiangjd.cc, port: 14006, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_5320", type: trojan, server: a1.wanxiangjd.cc, port: 14007, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_61af", type: trojan, server: a1.wanxiangjd.cc, port: 14008, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_f34e", type: trojan, server: a1.wanxiangjd.cc, port: 14009, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_520b", type: trojan, server: a1.wanxiangjd.cc, port: 14010, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_e218", type: vless, server: 185.151.146.140, port: 10001, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_6a36", type: vless, server: sgp3.baipiaoo.site, port: 10001, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_51d1", type: vless, server: sgp4.baipiaoo.site, port: 10001, udp: true }
@@ -1776,7 +2520,7 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_4ee7", type: trojan, server: xsus.xs-us.net, port: 8021, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_858c", type: trojan, server: xsus.xs-us.net, port: 8031, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_5088", type: trojan, server: xsus.xs-us.net, port: 8041, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_0069", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 49776, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_7f7e", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 49188, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_0c74", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10101, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_41e0", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10102, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_4297", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10103, udp: true }
@@ -1853,7 +2597,7 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_4699", type: trojan, server: xsus.xs-us.net, port: 8021, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_8786", type: trojan, server: xsus.xs-us.net, port: 8031, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_786e", type: trojan, server: xsus.xs-us.net, port: 8041, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_68e1", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 47711, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_67d5", type: trojan, server: zl.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 46390, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_bc26", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10101, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f746", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10102, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_cf08", type: trojan, server: f533f9b2-c69a-4dd0-bc63-f2ab94dd5f53.f1eb10ae-1d82-4c6a-b4dd-bd9525520956.com, port: 10103, udp: true }
